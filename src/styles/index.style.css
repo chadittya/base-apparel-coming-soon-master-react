@@ -9,5 +9,25 @@
     font-size: 1rem;
     font-weight: 400;
     font-family: "Josefin Sans", sans-serif;
+    background: linear-gradient(
+      135deg,
+      from hsl(0, 0%, 100%),
+      to hsl(0, 100%, 98%)
+    );
+  }
+  .bg-gradient-custom {
+    background-image: linear-gradient(135deg, #f8bfbf 0%, #ee8b8b 100%);
+  }
+
+  .bg-gradient-custom-hover {
+    background: linear-gradient(135deg, #f8bfbf 0%, #ee8b8b 100%);
+    background-color: white;
+  }
+
+  @media (min-width: 1024px) {
+    body {
+      background-image: url(../assets/images/bg-pattern-desktop.svg);
+      background: linear-gradient(221.42deg, #fff1f1 2.6%, #ffffff 96.36%);
+    }
   }
 }
